@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landingpage freecodecamp</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #nav-bar {
+      position: sticky;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#info">Video</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#footer">Footer</a>
+    </nav>
+  </header>
+  <section id="info">
+    <video id="video" width="320" height="240" controls>
+      <source src="https://cdn.freecodecamp.org/testable-projects-fcc/video/tribute.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section id="contact">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" >
+
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      <label id="number">Number</label>
+      <input type="number" id="number" placeholder="Enter your number" required>
+      <label id="dropdown">Dropdown</label>
+      <select id="dropdown" name="dropdown">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+      <label id="textarea">Textarea</label>
+      <textarea id="textarea" name="textarea" rows="4" cols="50">
+      </textarea>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </section>
+  <footer id="footer">
+    <p>Footer</p>
+  </footer>
+
+
+</body>
+</html>
